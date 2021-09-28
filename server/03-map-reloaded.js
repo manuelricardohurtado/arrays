@@ -30,6 +30,8 @@ const orders = [
   // });
   // console.log("rta2", rta2);
   // console.log("original", orders);
+
+  //********** Clonar Objeto sin alterar el original
   const rta3 = orders.map((item) => {
     return {
       ...item,
