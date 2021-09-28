@@ -27,6 +27,9 @@ const team = [
     },
     {
       name: "Santiago",
-      age: 18,
+      age: 17,
     },
   ];
+
+  const allAreYounger = team.every(item => item.age < 18);
+  console.log('Younger', allAreYounger);
