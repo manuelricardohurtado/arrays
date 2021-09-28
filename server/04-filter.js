@@ -50,5 +50,4 @@ const search = (query) => {
     })
 }
 
-// console.log(search('Nico'));
-console.log(search('hsdjkfhdsj'));
+console.log(search('Nico'));
